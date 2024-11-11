@@ -1,0 +1,292 @@
+.logo{
+  margin-left:-110px;
+
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.contentWrapper1{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  margin-top: 30px;
+  max-width: 1200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+.thalaiva{
+  margin-left: 220px;
+  padding:6px 20px 10px;
+  color: white;
+  background-color: #02a7e9;
+}
+
+.authForm1 {
+  margin-top: 10px;
+  margin-left: -570px;
+  width: 55%;
+}
+
+h2 {
+  margin-left: 220px;
+  font-size: 30px;
+}
+.authFormInputs {
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+@media (max-width: 991px) {
+  .loginContainer {
+    padding-left: 15px;
+  }
+}
+
+.contentWrapper {
+  gap: 15px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .contentWrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 100%;
+  margin-left: 0;
+}
+
+.loginFormWrapper {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerSection {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+  font: 14px Poppins, sans-serif;
+}
+
+.signupPrompt {
+  display: flex;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.signupText {
+  color: #000;
+  font-weight: 600;
+  font-size: large;
+  margin-left: 142px;
+}
+
+.signupLink {
+  font-size: large;
+  margin-top: 10px;
+  color: #02a7e9;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.welcomeTitle {
+  color: #000;
+  margin-top: 10px;
+  margin-left: -635px;
+  font: 600 28px Poppins, sans-serif;
+}
+
+.loginSubtitle {
+  color: #000;
+  margin-top: 10px;
+  margin-left: -635px;
+  font: 400 16px Poppins, sans-serif;
+}
+
+.socialLoginSection {
+  display: flex;
+  gap: 10px;
+  margin-left: -620px;
+  padding: 10px 20px 20px;
+  font: 500 12px Poppins, sans-serif;
+}
+
+.socialButton {
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border: 1px solid #40b4de;
+  cursor: pointer;
+}
+
+.socialIcon {
+  width: 35px;
+  padding: 5px;
+}
+
+.socialIcon1 {
+  width: 35px;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+
+.dividerSection {
+  display: flex;
+  width: 80%;
+  margin-left: -140px;
+}
+
+.divider{
+  padding-right: 15px;
+}
+.divider1{
+  padding-left: 15px;
+}
+
+.dividerText {
+  font-size: 13px;
+}
+
+.formInput {
+  background-color: #fff;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin: 30px 0 0 20px;
+  padding: 30px 20px;
+  border: 1px solid #d9d9d9;
+  font: 400 14px Poppins, sans-serif;
+}
+
+.passwordInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.visibilityIcon {
+  width: 26px;
+  cursor: pointer;
+}
+
+.formOptions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0 0 10px;
+}
+
+.rememberMe {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.checkbox {
+  border-radius: 37px;
+  background-color: #ececec;
+  padding: 3px;
+  border: 1px solid #c9c9c9;
+  cursor: pointer;
+}
+
+.checkboxKnob {
+  width: 20px;
+  height: 20px;
+}
+
+.checkboxLabel {
+  color: #1a1a1a;
+  font: 400 12px Poppins, sans-serif;
+}
+
+.recoverLink {
+  color: #02a7e9;
+  font: 300 14px Poppins, sans-serif;
+  cursor: pointer;
+}
+
+
+
+.rightColumn{
+  position: absolute;
+  height:100%;
+  width:50%;
+  margin-left: 48%;
+  
+}
+
+.heroImage {
+  position: absolute;
+  height: 81.5%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 85.9%;
+  object-fit: cover;
+}
+
+.heroContent {
+  width:600px;
+  margin-top: 400px;
+  margin-left: 15px;
+  position: relative;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  backdrop-filter: blur(10px); 
+  border-radius: 15px; /* Optional: smooth corners */
+}
+
+
+.heroTitle {
+  background-color: #fff;
+  color: #02a7e9;
+  padding: 15px;
+  margin-left: -5px;
+  margin-right: 330px;
+  border-radius: 15px;
+  font: 700 16px Roboto, sans-serif;
+}
+
+.heroDescription {
+  color: #fff;
+  margin-top: 20px;
+  font: 400 18px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .heroSection {
+    padding: 100px 20px 0;
+  }
+
+  .formInput,
+  .loginButton {
+    padding: 20px;
+  }
+}

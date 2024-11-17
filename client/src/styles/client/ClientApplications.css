@@ -9,12 +9,6 @@
 }
 
 
-.client-applications-page span h3{
-
-
-}
-
-
 .client-applications-page span select{
     width: 50%;
 
@@ -29,7 +23,7 @@
     overflow-y: scroll;
 }   
 .client-application{
-    padding: 2vh 2vw;
+    padding: 1vh 1vw;
 }
 
 .client-application:hover{
@@ -65,12 +59,14 @@
 }
 
 .client-application-half p{
-    font-size: 0.8rem;
+    font-size: 1.0rem;
+    margin : 10px;
 }
 
 .client-application-half span{
     display: flex;
     flex-direction: column;
+    
 }
 
 .client-application-half span h5{
@@ -78,24 +74,22 @@
     color: rgba(9, 55, 86, 0.877);
 }
 
-.client-application-half span p{
 
-}
-
-.client-application-half span .application-skills{
+.client-application-half span .application-skills {
     display: flex;
-    gap: 10px;
+    gap: 25px; /* Adjust the gap as needed */
+    flex-wrap: wrap; /* This will ensure that skills wrap to the next line if they exceed the container width */
 }
 
-
-.client-application-half span .application-skills p{
-
+.client-application-half span .application-skills p {
     color: #ee4950;
     border: 1px solid #ee4950;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 1rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    margin: 0; /* Remove default margin */
 }
+
 
 .client-application-half h6{
 

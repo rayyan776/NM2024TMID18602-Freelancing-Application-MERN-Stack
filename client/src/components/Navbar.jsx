@@ -63,7 +63,12 @@ const Navbar = () => {
       
       {usertype === 'admin' ?
           <div className="navbar">
-            <h3>SB Works (admin)</h3>
+            <img 
+        loading="lazy" 
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b0f4e4dc1e6f665c41ba5370f9c10ae60f8bab95301ddbe439c01514dbda111?placeholderIfAbsent=true&apiKey=3c5ef9ce32e644578e9a06c4845a8d8e" 
+        className="logo"
+        alt="Company logo"
+              />
     
             <div className="nav-options">
                 <p onClick={()=> navigate('/admin')} >Home</p>

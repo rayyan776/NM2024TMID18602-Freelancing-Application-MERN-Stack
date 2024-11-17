@@ -7,7 +7,9 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     /* background-color: #141414; */
 }
-
+.navbar img{
+    margin-left: 5px;
+}
 .navbar h3{
 
     color: #ee4950;
@@ -17,6 +19,7 @@
 .nav-options{
     display: flex;
     width: 40%;
+    margin-left: 60%;
     justify-content: space-evenly;
 }
 

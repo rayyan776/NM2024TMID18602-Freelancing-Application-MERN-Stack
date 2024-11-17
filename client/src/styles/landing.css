@@ -104,7 +104,7 @@
     overflow: hidden;
     font-family: Poppins, sans-serif;
     color: #252525;
-    justify-content: start;
+    justify-content: flex-start;
   }
   
   .mainHeading {
@@ -287,7 +287,7 @@
     min-width: 240px;
     align-items: flex-start; /* Changed to flex-start for better alignment */
     gap: 40px;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top:-20px;
     list-style: none; /* Improved for better consistency */

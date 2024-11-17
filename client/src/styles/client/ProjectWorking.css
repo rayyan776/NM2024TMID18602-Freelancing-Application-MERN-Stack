@@ -8,13 +8,6 @@
     width: 60%;
     text-align: left;
 }
-
-
-.project-data{
-
-
-}
-
 .project-data h3{
 
     font-size: 1.5rem;
@@ -23,15 +16,7 @@
 
 .project-data p{
     font-size: 0.9rem;
-}
-
-.project-data span {
-
-}
-
-.project-data span h5{
-
-
+    margin: 20px;
 }
 
 .project-data span .required-skills{
@@ -44,12 +29,11 @@
     border: 1px solid #ee450e;
     padding: 6px 12px;
     border-radius: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    margin: 10px;
 }
 
-.project-data span h6{
 
-}
 
 .project-submissions-container{
     margin-top: 5vh;
@@ -64,20 +48,7 @@
     color: #226691db;
 }
 
-.project-submissions{
 
-
-}
-
-.project-submission{
-
-
-}
-
-.project-submission h6{
-
-    
-}
 .project-submission h5{
     margin: 0;
     font-size: 1rem;
@@ -124,10 +95,6 @@
     margin: 0;
 }
 
-.project-chat-container hr{
-
-
-}
 
 .chat-body{
 
@@ -136,14 +103,12 @@
 }
 
 .chat-messages{
-
     height: 55vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
     overflow-y: scroll;
     -ms-overflow-style: none; 
-    scrollbar-width: none;
     padding-bottom: 4vh;
 }
 
@@ -155,7 +120,7 @@
     width: 100%;
     text-align: right;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .chat-messages .my-message div{
@@ -173,12 +138,11 @@
     margin: 0;
     font-size: 0.8rem;
 }
-
 .chat-messages .my-message h6{
     margin: 0;
     font-size: 0.6rem;
     font-weight: 400;
-    text-align: end;
+    text-align: right;
 }
 
 .chat-messages .received-message{
@@ -214,7 +178,7 @@
     margin: 0;
     font-size: 0.6rem;
     font-weight: 400;
-    text-align: start;
+    text-align: left;
 }
 
 .chat-input{

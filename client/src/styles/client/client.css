@@ -64,8 +64,9 @@
 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3vh;
+    
 }
+
 
 .listed-project-head h3{
     width: 80%;

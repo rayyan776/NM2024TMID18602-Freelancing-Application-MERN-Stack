@@ -104,11 +104,13 @@ const ProjectApplications = () => {
                           <p>{application.description}</p>
                           <span>
                             <h5>Skills</h5>
+                            <br />
                             <div className="application-skills">
                               {application.requiredSkills.map((skill)=>(
                                 <p key={skill}>{skill}</p>
                               ))}
                             </div>
+                            <br />
                           </span>
                           <h6>Budget - &#8377; {application.budget}</h6>
 
@@ -123,12 +125,14 @@ const ProjectApplications = () => {
                           <p>{application.proposal}</p>
                         </span>
                         <span>
+                        <br />
                             <h5>Skills</h5>
                             <div className="application-skills">
                             {application.freelancerSkills.map((skill)=>(
                                 <p key={skill} >{skill}</p>
                               ))}
                             </div>
+                    
                         </span>
                         <h6>Proposed Budget - &#8377; {application.bidAmount}</h6>
                         <div className="approve-btns">
